@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alimentació Sense Desperdici</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            font-size: 32px;
+            font-weight: bold;
+            text-align: center;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #2E7D32;
+            color: white;
+            padding: 15px 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #f4f4f4;
+        }
+        section {
+            padding: 40px;
+            max-width: 900px;
+            margin: 80px auto 20px auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        footer {
+            background: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 14px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+            margin-bottom: 20px;
+        }
+        .content-list {
+            text-align: left;
+            padding-left: 20px;
+            list-style: none;
+        }
+        .content-list li::before {
+            content: "•";
+            color: #4CAF50;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .content-list li {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .icon {
+            font-size: 35px;
+            color: #4CAF50;
+            margin-right: 10px;
+        }
+        .cta-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 25px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #2E7D32;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Alimentació Sense Desperdici
+        <p>Reduïm el malbaratament alimentari per un món més sostenible</p>
+    </header>
+
+    <nav>
+        <a href="#inici">Inici</a>
+        <a href="#necessitat">Necessitat</a>
+        <a href="#problema">El Problema</a>
+        <a href="#solucio">Solució</a>
+        <a href="#beneficis">Beneficis</a>
+        <a href="#colaboracions">Col·laboracions</a>
+        <a href="#ganxo">Ganxo</a>
+        <a href="#contacte">Contacte</a>
+    </nav>
+
+    <section id="inici">
+        <h2><i class="icon">🏠</i>Benvinguts a Alimentació Sense Desperdici</h2>
+        <p>Som un grup de nens de l'INS Abat Oliba de Ripoll: Alan, Gil, Àlex i Santi. El nostre treball té com a objectiu conscienciar la gent sobre el malbaratament alimentari i com podem reduir-lo per construir un futur més sostenible.</p>
+    </section>
+
+    <section id="necessitat">
+        <h2><i class="icon">📌</i> Necessitat</h2>
+        <p>El malbaratament alimentari és un dels problemes més grans del nostre temps. Cada any es llencen tones de menjar mentre moltes persones passen gana. Necessitem una acció immediata per reduir aquest problema i fer un ús més eficient dels recursos.</p>
+    </section>
+
+    <section id="problema">
+        <h2><i class="icon">📉</i> El Problema</h2>
+        <p>Milions de tones d'aliments es llencen cada any arreu del món. Això no només suposa una pèrdua econòmica, sinó que també contribueix a l'augment de la fam mundial i el deteriorament del medi ambient. Quan es llença menjar, també es malgasten els recursos naturals com l'aigua i l'energia utilitzats per produir-lo.</p>
+    </section>
+
+    <section id="solucio">
+        <h2><i class="icon">🌱</i> Solució</h2>
+        <p>Per combatre el malbaratament alimentari, podem implementar diverses solucions concretes:</p>
+        <ul class="content-list">
+            <li>Planificar millor les compres i el consum de menjar.</li>
+            <li>Conservar correctament els aliments i aprofitar les sobres.</li>
+            <li>Fomentar la redistribució dels aliments per ajudar aquells que més ho necessiten.</li>
+            <li>Incentivar lleis que promoguin la reducció de malbaratament i la sostenibilitat.</li>
+        </ul>
+        <h3>🎯 Objectius de Desenvolupament Sostenible (ODS)</h3>
+        <p>Els nostres esforços estan alineats amb els ODS de l'ONU, especialment:</p>
+        <ul class="content-list">
+            <li><b>ODS 2:</b> Fam Zero - Reduir el malbaratament i redistribuir aliments.</li>
+            <li><b>ODS 12:</b> Producció i Consum Responsable - Fomentar un ús eficient dels recursos.</li>
+            <li><b>ODS 13:</b> Acció Climàtica - Reduir l'impacte ambiental del menjar desaprofitat.</li>
+        </ul>
+    </section>
+
+    <section id="beneficis">
+        <h2><i class="icon">💡</i> Beneficis</h2>
+        <p>Reduir el malbaratament alimentari té nombrosos beneficis:</p>
+        <ul class="content-list">
+            <li>Estalvi econòmic per a famílies i empreses.</li>
+            <li>Menys contaminació i ús eficient dels recursos.</li>
+            <li>Reducció de la fam global amb la redistribució d'aliments.</li>
+        </ul>
+    </section>
+
+    <section id="colaboracions">
+        <h2><i class="icon">🤝</i> Col·laboracions</h2>
+        <p>Per tenir un major impacte, treballem amb diverses organitzacions, escoles i iniciatives locals per fomentar bones pràctiques i crear campanyes de conscienciació.</p>
+    </section>
+
+    <section id="ganxo">
+        <h2><i class="icon">🚀</i> El Nostre Ganxo</h2>
+        <p>Vols formar part d’un canvi real? Uneix-te a nosaltres per reduir el malbaratament alimentari i construir un món més sostenible. Comparteix, aprèn i actua ara!</p>
+        <a href="#contacte" class="cta-button">Actua Ara!</a>
+    </section>
+
+    <section id="contacte">
+        <h2><i class="icon">📩</i> Contacte</h2>
+        <p>Si vols saber més sobre el nostre projecte, segueix-nos a xarxes socials o escriu-nos un missatge. Junts podem marcar la diferència!</p>
+    </section>
+
+    <section id="video">
+        <h2><i class="icon">🎥</i> El nostre missatge en vídeo</h2>
+        <!-- Vídeo incrustat -->
+        <iframe src="https://www.youtube.com/embed/CgCPZnHGF9o" title="Malbaratament Alimentari - Conscienciació"></iframe>
+    </section>
+
+    <footer>
+        &copy; 2025 Alimentació Sense Desperdici - Per un futur sostenible
+    </footer>
+</body>
+</html>
